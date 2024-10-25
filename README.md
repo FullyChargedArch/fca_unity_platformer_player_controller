@@ -27,3 +27,5 @@ A basic platformer player controller for unity.
   - Capsule Collider 2D
 - Ground/Wall/Collisions
   - Objects to be collided with need to be on a layer named "Tile"
+- Camera:
+  - (optional) Size: 12
