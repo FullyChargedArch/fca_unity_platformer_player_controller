@@ -16,3 +16,14 @@ A basic platformer player controller for unity.
 ## Additional Features
 - Dash cancel tech: horizontal velocity is multiplied when cancelling a dash
 - Horizontal velocity preservation: air speed can be preserved by jumping within a few frames of touching the ground
+
+## How to use
+- Player Game Object:
+  - Rigidbody 2D
+    - Body Type: Dynamic
+    - Material: needs to be frictionless
+    - Collision Detection: Continuous
+    - Interpolate: Interpolate
+  - Capsule Collider 2D
+- Ground/Wall/Collisions
+  - Objects to be collided with need to be on a layer named "Tile"
