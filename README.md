@@ -17,7 +17,7 @@ A basic platformer player controller for unity.
 - Dash cancel tech: horizontal velocity is multiplied when cancelling a dash
 - Horizontal velocity preservation: air speed can be preserved by jumping within a few frames of touching the ground
 
-## How to use
+## How to Use
 - Player Game Object:
   - Rigidbody 2D
     - Body Type: Dynamic
